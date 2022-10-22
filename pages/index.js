@@ -13,24 +13,23 @@ export default function Home() {
         </h2>
 
         <div className={styles.grid}>
-          <Link href="/" >
+          <Link href="/alyssa" >
             <a className={styles.card}>
-            <h2>Home &rarr;</h2>
-            </a>
-          </Link>
-
-          <Link href="/about" >
-          <a className={styles.card}>
             <h2>Alyssa &rarr;</h2>
             </a>
           </Link>
 
+          <Link href="/caitlyn" >
+          <a className={styles.card}>
+            <h2>Caitlyn &rarr;</h2>
+            </a>
+          </Link>
+
           <Link
-            href="/contact"
-            
+            href="/wesley"
           >
             <a className={styles.card}>
-            <h2>Contact &rarr;</h2>
+            <h2>Wesley &rarr;</h2>
             </a>
           </Link>
 

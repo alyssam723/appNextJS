@@ -13,7 +13,8 @@ export default function Alyssa(){
             <h2 className={styles.title}>Alyssa Page</h2>
      
             <p className={styles.description}>
-           
+
+
             <Image className= {styles.image} src={alyssa} />
             
             </p>
